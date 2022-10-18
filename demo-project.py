@@ -46,7 +46,7 @@ class ui_demo_project (QMainWindow):
         print(f'1url_new: {url_new}')
         
         try:
-            response = requests.request('GET', url_new)
+            response = requests.request('GET', url_new, timeout=10)
             if response.status_code == 200:            
                 dataJson=response.json() 
                 # print(f"dataJson: {dataJson}")

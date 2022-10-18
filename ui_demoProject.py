@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'c:\Users\IOFamilia\Documents\QT_IO\DemoProject\demoProject.ui'
+# Form implementation generated from reading ui file 'c:\Users\IOFamilia\Documents\QT_IO\demo_api_rest_client\demoProject.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.7
 #
@@ -44,7 +44,7 @@ class Ui_mWindows(object):
 
     def retranslateUi(self, mWindows):
         _translate = QtCore.QCoreApplication.translate
-        mWindows.setWindowTitle(_translate("mWindows", "Postulante para ROBOTILSA S.A."))
+        mWindows.setWindowTitle(_translate("mWindows", "Postulante S.A."))
         self.lblDate.setText(_translate("mWindows", "Date"))
         self.lblHour.setText(_translate("mWindows", "Hour"))
         self.pbRequest.setText(_translate("mWindows", "REQUEST"))
